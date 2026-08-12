@@ -2768,9 +2768,23 @@ window.onload = () => {
 
 
 </script>
+<script>
+      const WEB_APP_URL = "นำ URL ที่ได้จาก Google Apps Script มาวางตรงนี้";
 
+      function loadData() {
+        fetch(WEB_APP_URL)
+          .then(response => response.json())
+          .then(result => {
+            console.log("ดึงข้อมูลสำเร็จ:", result);
+            // เอาข้อมูลที่ได้ไปแสดงผลบนหน้าเว็บของคุณ
+          })
+          .catch(error => {
+            console.error("เกิดข้อผิดพลาด:", error);
+          });
+      }
 
-</body>
-
-
+      // สั่งให้ทำงานทันทีที่เปิดหน้าเว็บ
+      window.onload = loadData;
+    </script>
+  </body>
 </html>
