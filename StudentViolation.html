@@ -1,565 +1,510 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="th">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.65">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #6d6d6d; -webkit-text-stroke: #6d6d6d}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #1443ae; -webkit-text-stroke: #1443ae}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #12737e; -webkit-text-stroke: #12737e}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #a20010; -webkit-text-stroke: #a20010}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #2e3133; -webkit-text-stroke: #2e3133}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #6103ad; -webkit-text-stroke: #6103ad}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #137646; -webkit-text-stroke: #137646}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #093c94; -webkit-text-stroke: #093c94}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #2e3133; -webkit-text-stroke: #2e3133; min-height: 15.0px}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #4d5055; -webkit-text-stroke: #4d5055}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #156227; -webkit-text-stroke: #156227}
-    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Ayuthaya; color: #2e3133; -webkit-text-stroke: #2e3133}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #2e3133; -webkit-text-stroke: #000000}
-    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Ayuthaya; color: #a20010; -webkit-text-stroke: #a20010}
-    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #2e3133; -webkit-text-stroke: #a20010}
-    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Menlo; color: #2e3133; -webkit-text-stroke: #1443ae}
-    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Ayuthaya; color: #4d5055; -webkit-text-stroke: #4d5055}
-    span.s1 {font-kerning: none; background-color: #f6f7f9}
-    span.s2 {font-kerning: none; color: #fb0007; background-color: #f6f7f9; -webkit-text-stroke: 0px #fb0007}
-    span.s3 {font-kerning: none; color: #2a2a2a; background-color: #f6f7f9; -webkit-text-stroke: 0px #2a2a2a}
-    span.s4 {font-kerning: none; color: #2e3133; background-color: #f6f7f9; -webkit-text-stroke: 0px #2e3133}
-    span.s5 {font-kerning: none; color: #12737e; background-color: #f6f7f9; -webkit-text-stroke: 0px #12737e}
-    span.s6 {font-kerning: none; color: #a20010; background-color: #f6f7f9; -webkit-text-stroke: 0px #a20010}
-    span.s7 {font-kerning: none; color: #1443ae; background-color: #f6f7f9; -webkit-text-stroke: 0px #1443ae}
-    span.s8 {font: 13.0px Ayuthaya; font-kerning: none; background-color: #f6f7f9}
-    span.s9 {font-kerning: none; color: #137646; background-color: #f6f7f9; -webkit-text-stroke: 0px #137646}
-    span.s10 {font-kerning: none; color: #093c94; background-color: #f6f7f9; -webkit-text-stroke: 0px #093c94}
-    span.s11 {font-kerning: none; color: #6103ad; background-color: #f6f7f9; -webkit-text-stroke: 0px #6103ad}
-    span.s12 {font-kerning: none}
-    span.s13 {font: 13.0px Ayuthaya; font-kerning: none; color: #2e3133; background-color: #f6f7f9; -webkit-text-stroke: 0px #2e3133}
-    span.s14 {font: 13.0px Menlo; font-kerning: none; background-color: #f6f7f9}
-    span.s15 {font: 13.0px Menlo; font-kerning: none; color: #2a2a2a; background-color: #f6f7f9; -webkit-text-stroke: 0px #2a2a2a}
-    span.s16 {font: 13.0px Menlo; font-kerning: none; color: #1443ae; background-color: #f6f7f9; -webkit-text-stroke: 0px #1443ae}
-    span.s17 {font-kerning: none; background-color: #f6f7f9; -webkit-text-stroke: 0px #2e3133}
-    span.s18 {font: 13.0px Menlo; font-kerning: none; color: #2e3133; background-color: #f6f7f9; -webkit-text-stroke: 0px #2e3133}
-    span.s19 {font-kerning: none; background-color: #f6f7f9; -webkit-text-stroke: 0px #000000}
-    span.s20 {font-kerning: none; color: #a20010; background-color: #f6f7f9}
-    span.s21 {font: 13.0px Ayuthaya; font-kerning: none; color: #a20010; background-color: #f6f7f9}
-    span.s22 {font-kerning: none; color: #1443ae; background-color: #f6f7f9}
-    span.s23 {font-kerning: none; color: #2e3133; background-color: #f6f7f9; -webkit-text-stroke: 0px #000000}
-    span.s24 {font-kerning: none; color: #ba0673; background-color: #f6f7f9; -webkit-text-stroke: 0px #ba0673}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>ประวัติการทำผิดกฎ - MWKCN</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+  :root {
+    --glass-bg: rgba(255, 255, 255, 0.45);
+    --glass-border: rgba(255, 255, 255, 0.8);
+    --glass-shadow: 0 30px 60px rgba(0,0,0,0.05), 0 10px 20px rgba(0,0,0,0.02);
+    --inner-reflection: inset 0 2px 5px rgba(255,255,255,0.7), inset 0 -1px 2px rgba(255,255,255,0.1);
+    --ios-blue: #007aff;
+    --ios-red: #ff3b30;
+    --ios-green: #34c759;
+    --ios-orange: #ff9500;
+  }
+  body {
+    font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(180deg, #F2F2F7 0%, #E5E5EA 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: #1C1C1E;
+    -webkit-font-smoothing: antialiased;
+  }
+  .liquid-card {
+    background: linear-gradient(135deg, rgba(255,255,255,0.88) 0%, rgba(255,255,255,0.6) 100%);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: 2px solid var(--glass-border);
+    border-radius: 32px;
+    padding: 32px;
+    box-shadow: var(--glass-shadow), var(--inner-reflection);
+    max-width: 900px;
+    margin: 0 auto 24px;
+  }
+  .student-header {
+    text-align: center;
+    padding: 24px;
+    background: linear-gradient(135deg, rgba(0,122,255,0.08) 0%, rgba(0,122,255,0.02) 100%);
+    border-radius: 24px;
+    margin-bottom: 28px;
+    border: 1px solid rgba(0,122,255,0.15);
+  }
+  .student-header h2 { font-weight: 800; margin-bottom: 4px; letter-spacing: -0.5px; }
+  .student-header .badge-id {
+    display: inline-block;
+    background: var(--ios-blue);
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-top: 8px;
+  }
+
+  /* Desktop: ตารางแบบปกติ */
+  .data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+  }
+  .data-table thead th {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #8e8e93;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0 16px 8px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+  .data-table tbody tr {
+    background: rgba(255,255,255,0.6);
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  }
+  .data-table tbody td {
+    padding: 16px;
+    font-size: 0.95rem;
+    vertical-align: middle;
+  }
+  .data-table tbody td:first-child { border-radius: 16px 0 0 16px; }
+  .data-table tbody td:last-child { border-radius: 0 16px 16px 0; }
+
+  /* Mobile: ซ่อนตาราง แสดงเป็น Card แทน */
+  .violation-card {
+    background: rgba(255,255,255,0.7);
+    border-radius: 20px;
+    padding: 18px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    border: 1px solid rgba(0,0,0,0.03);
+  }
+  .violation-card .card-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .violation-card .card-date {
+    font-size: 0.8rem;
+    color: #8e8e93;
+    font-weight: 600;
+  }
+  .violation-card .card-count {
+    background: rgba(0,122,255,0.08);
+    color: var(--ios-blue);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+  .violation-card .card-rule {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+  .violation-card .card-detail {
+    font-size: 0.85rem;
+    color: #8e8e93;
+    margin-bottom: 12px;
+  }
+  .violation-card .card-evidence {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  @media (max-width: 576px) {
+    .data-table-wrapper { display: none; }
+    .mobile-cards { display: block; }
+  }
+  @media (min-width: 577px) {
+    .data-table-wrapper { display: block; }
+    .mobile-cards { display: none; }
+  }
+
+  .evidence-btn {
+    background: rgba(0,122,255,0.08);
+    color: var(--ios-blue);
+    border: 1px solid rgba(0,122,255,0.15);
+    padding: 8px 14px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .evidence-btn:hover { background: var(--ios-blue); color: #fff; }
+  .evidence-btn.disabled {
+    background: rgba(0,0,0,0.03);
+    color: #c7c7cc;
+    border-color: transparent;
+    cursor: not-allowed;
+  }
+
+  .empty-state { text-align: center; padding: 50px 20px; color: #8e8e93; }
+  .empty-state i { font-size: 3rem; margin-bottom: 16px; opacity: 0.3; }
+
+  .modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    z-index: 9998;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .modal-overlay.show { display: block; opacity: 1; }
+
+  .modal-liquid {
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.9) 100%);
+    backdrop-filter: blur(40px);
+    border: 2px solid rgba(255,255,255,0.6);
+    border-radius: 32px;
+    padding: 28px;
+    width: 92%;
+    max-width: 500px;
+    max-height: 85vh;
+    overflow-y: auto;
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.2);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .modal-liquid.show { display: block; opacity: 1; transform: translate(-50%, -50%) scale(1); }
+
+  .modal-header-liquid { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+  .modal-header-liquid h5 { font-weight: 800; margin: 0; }
+  .modal-close {
+    background: rgba(0,0,0,0.05);
+    border: none;
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .modal-close:hover { background: rgba(0,0,0,0.1); }
+
+  .modal-img-grid { display: grid; gap: 12px; }
+  .modal-img-item { border-radius: 20px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+  .modal-img-item img { width: 100%; display: block; }
+
+  #loader {
+    position: fixed; inset: 0;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    flex-direction: column;
+  }
+  .spinner-ring {
+    width: 40px; height: 40px;
+    border: 3px solid rgba(0,0,0,0.05);
+    border-top-color: var(--ios-blue);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .back-btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    color: #8e8e93; text-decoration: none;
+    font-weight: 600; font-size: 0.9rem;
+    margin-bottom: 20px;
+    transition: color 0.2s;
+  }
+  .back-btn:hover { color: #1C1C1E; }
+
+  .danger-badge {
+    background: rgba(255,59,48,0.1);
+    color: var(--ios-red);
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+</style>
+<base target="_blank">
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> html</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">html</span><span class="s4"> </span><span class="s5">lang</span><span class="s3">=</span><span class="s6">"th"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
-<p class="p3"><span class="s3">&lt;</span><span class="s7">meta</span><span class="s4"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s6">"UTF-8"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">meta</span><span class="s4"> </span><span class="s5">name</span><span class="s3">=</span><span class="s1">"viewport"</span><span class="s4"> </span><span class="s5">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0, viewport-fit=cover"</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s3">&lt;</span><span class="s7">title</span><span class="s3">&gt;</span><span class="s8">ประวัติการทำผิดกฎ</span><span class="s1"> - MWKCN</span><span class="s3">&lt;/</span><span class="s7">title</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">link</span><span class="s4"> </span><span class="s5">href</span><span class="s3">=</span><span class="s1">"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"</span><span class="s4"> </span><span class="s5">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">link</span><span class="s4"> </span><span class="s5">href</span><span class="s3">=</span><span class="s1">"https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&amp;display=swap"</span><span class="s4"> </span><span class="s5">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">link</span><span class="s4"> </span><span class="s5">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s4"> </span><span class="s5">href</span><span class="s3">=</span><span class="s1">"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">style</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">:root</span><span class="s4"> {</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">--glass-bg:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">, </span><span class="s1">255</span><span class="s4">, </span><span class="s1">255</span><span class="s4">, </span><span class="s1">0.45</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">--glass-border:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">255</span><span class="s4">, </span><span class="s9">255</span><span class="s4">, </span><span class="s9">255</span><span class="s4">, </span><span class="s9">0.8</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">--glass-shadow:</span><span class="s4"> </span><span class="s1">0</span><span class="s4"> </span><span class="s1">30px</span><span class="s4"> </span><span class="s1">60px</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0.05</span><span class="s6">)</span><span class="s4">, </span><span class="s1">0</span><span class="s4"> </span><span class="s1">10px</span><span class="s4"> </span><span class="s1">20px</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0.02</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">--inner-reflection:</span><span class="s4"> </span><span class="s6">inset</span><span class="s4"> </span><span class="s1">0</span><span class="s4"> </span><span class="s1">2px</span><span class="s4"> </span><span class="s1">5px</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.7</span><span class="s6">)</span><span class="s4">, </span><span class="s6">inset</span><span class="s4"> </span><span class="s1">0</span><span class="s4"> </span><span class="s1">-1px</span><span class="s4"> </span><span class="s1">2px</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.1</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">--ios-blue:</span><span class="s4"> </span><span class="s10">#007aff</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">--ios-red:</span><span class="s4"> </span><span class="s10">#ff3b30</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">--ios-green:</span><span class="s4"> </span><span class="s10">#34c759</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">--ios-orange:</span><span class="s4"> </span><span class="s10">#ff9500</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s11">body</span><span class="s1"> {</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">font-family:</span><span class="s4"> </span><span class="s1">'Sarabun'</span><span class="s4">, </span><span class="s1">-apple-system</span><span class="s4">, </span><span class="s1">BlinkMacSystemFont</span><span class="s4">, </span><span class="s1">sans-serif</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">background:</span><span class="s4"> </span><span class="s1">linear-gradient(</span><span class="s9">180deg</span><span class="s4">, </span><span class="s10">#F2F2F7</span><span class="s4"> </span><span class="s9">0%</span><span class="s4">, </span><span class="s10">#E5E5EA</span><span class="s4"> </span><span class="s9">100%</span><span class="s1">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">min-height:</span><span class="s4"> </span><span class="s9">100vh</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">20px</span><span class="s4">;</span></p>
-<p class="p8"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">color:</span><span class="s4"> </span><span class="s1">#1C1C1E</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">-webkit-font-smoothing:</span><span class="s4"> </span><span class="s6">antialiased</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.liquid-card</span><span class="s4"> {</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">background:</span><span class="s4"> </span><span class="s6">linear-gradient(</span><span class="s1">135deg</span><span class="s4">, </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.88</span><span class="s6">)</span><span class="s4"> </span><span class="s1">0%</span><span class="s4">, </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.6</span><span class="s6">)</span><span class="s4"> </span><span class="s1">100%</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">backdrop-filter:</span><span class="s4"> </span><span class="s6">blur(</span><span class="s9">25px</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">-webkit-backdrop-filter:</span><span class="s4"> </span><span class="s6">blur(</span><span class="s9">25px</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">border:</span><span class="s4"> </span><span class="s9">2px</span><span class="s4"> </span><span class="s1">solid</span><span class="s4"> </span><span class="s1">var(--glass-border)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">32px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">32px</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">box-shadow:</span><span class="s4"> </span><span class="s1">var(--glass-shadow)</span><span class="s4">, </span><span class="s1">var(--inner-reflection)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">max-width:</span><span class="s4"> </span><span class="s9">900px</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">margin:</span><span class="s1"> </span><span class="s9">0</span><span class="s1"> </span><span class="s6">auto</span><span class="s1"> </span><span class="s9">24px</span><span class="s1">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.student-header</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">text-align:</span><span class="s4"> </span><span class="s6">center</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">24px</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">background:</span><span class="s4"> </span><span class="s6">linear-gradient(</span><span class="s1">135deg</span><span class="s4">, </span><span class="s6">rgba(</span><span class="s1">0</span><span class="s4">,</span><span class="s1">122</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.08</span><span class="s6">)</span><span class="s4"> </span><span class="s1">0%</span><span class="s4">, </span><span class="s6">rgba(</span><span class="s1">0</span><span class="s4">,</span><span class="s1">122</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.02</span><span class="s6">)</span><span class="s4"> </span><span class="s1">100%</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">24px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">margin-bottom:</span><span class="s4"> </span><span class="s9">28px</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">border:</span><span class="s4"> </span><span class="s1">1px</span><span class="s4"> </span><span class="s6">solid</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">0</span><span class="s4">,</span><span class="s1">122</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.15</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s11">.student-header</span><span class="s4"> </span><span class="s11">h2</span><span class="s4"> { </span><span class="s1">font-weight:</span><span class="s4"> </span><span class="s9">800</span><span class="s4">; </span><span class="s1">margin-bottom:</span><span class="s4"> </span><span class="s9">4px</span><span class="s4">; </span><span class="s1">letter-spacing:</span><span class="s4"> </span><span class="s9">-0.5px</span><span class="s4">; }</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.student-header</span><span class="s4"> </span><span class="s1">.badge-id</span><span class="s4"> {</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">display:</span><span class="s4"> </span><span class="s1">inline-block</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">background:</span><span class="s4"> </span><span class="s1">var(--ios-blue)</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">color:</span><span class="s1"> </span><span class="s10">#fff</span><span class="s1">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">6px</span><span class="s4"> </span><span class="s9">16px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">20px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-weight:</span><span class="s4"> </span><span class="s9">700</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">0.9rem</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">margin-top:</span><span class="s4"> </span><span class="s9">8px</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p10"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">/* Desktop: </span><span class="s8">ตารางแบบปกติ</span><span class="s1"> */</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.data-table</span><span class="s4"> {</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">width:</span><span class="s1"> </span><span class="s9">100%</span><span class="s1">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-collapse:</span><span class="s4"> </span><span class="s6">separate</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-spacing:</span><span class="s4"> </span><span class="s9">0</span><span class="s4"> </span><span class="s9">8px</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.data-table</span><span class="s4"> </span><span class="s1">thead</span><span class="s4"> </span><span class="s1">th</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">0.75rem</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-weight:</span><span class="s4"> </span><span class="s9">700</span><span class="s4">;</span></p>
-<p class="p8"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">color:</span><span class="s4"> </span><span class="s1">#8e8e93</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">text-transform:</span><span class="s4"> </span><span class="s6">uppercase</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">letter-spacing:</span><span class="s4"> </span><span class="s9">0.5px</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">padding:</span><span class="s1"> </span><span class="s9">0</span><span class="s1"> </span><span class="s9">16px</span><span class="s1"> </span><span class="s9">8px</span><span class="s1">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-bottom:</span><span class="s4"> </span><span class="s9">1px</span><span class="s4"> </span><span class="s6">solid</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0.05</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.data-table</span><span class="s4"> </span><span class="s1">tbody</span><span class="s4"> </span><span class="s1">tr</span><span class="s4"> {</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.6</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">16px</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">box-shadow:</span><span class="s4"> </span><span class="s1">0</span><span class="s4"> </span><span class="s1">2px</span><span class="s4"> </span><span class="s1">8px</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0.02</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.data-table</span><span class="s4"> </span><span class="s1">tbody</span><span class="s4"> </span><span class="s1">td</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">16px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">0.95rem</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">vertical-align:</span><span class="s4"> </span><span class="s6">middle</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.data-table</span><span class="s4"> </span><span class="s1">tbody</span><span class="s4"> </span><span class="s1">td:first-child</span><span class="s4"> { </span><span class="s5">border-radius:</span><span class="s4"> </span><span class="s9">16px</span><span class="s4"> </span><span class="s9">0</span><span class="s4"> </span><span class="s9">0</span><span class="s4"> </span><span class="s9">16px</span><span class="s4">; }</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.data-table</span><span class="s4"> </span><span class="s1">tbody</span><span class="s4"> </span><span class="s1">td:last-child</span><span class="s4"> { </span><span class="s5">border-radius:</span><span class="s4"> </span><span class="s9">0</span><span class="s4"> </span><span class="s9">16px</span><span class="s4"> </span><span class="s9">16px</span><span class="s4"> </span><span class="s9">0</span><span class="s4">; }</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p10"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">/* Mobile: </span><span class="s8">ซ่อนตาราง</span><span class="s1"> </span><span class="s8">แสดงเป็น</span><span class="s1"> Card </span><span class="s8">แทน</span><span class="s1"> */</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.violation-card</span><span class="s4"> {</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.7</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">20px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">18px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">margin-bottom:</span><span class="s4"> </span><span class="s9">12px</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">box-shadow:</span><span class="s4"> </span><span class="s1">0</span><span class="s4"> </span><span class="s1">2px</span><span class="s4"> </span><span class="s1">10px</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0.04</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">border:</span><span class="s1"> </span><span class="s9">1px</span><span class="s1"> </span><span class="s6">solid</span><span class="s1"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s1">,</span><span class="s9">0</span><span class="s1">,</span><span class="s9">0</span><span class="s1">,</span><span class="s9">0.03</span><span class="s6">)</span><span class="s1">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.violation-card</span><span class="s4"> </span><span class="s1">.card-header-row</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">display:</span><span class="s4"> </span><span class="s6">flex</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">justify-content:</span><span class="s4"> </span><span class="s6">space-between</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">align-items:</span><span class="s4"> </span><span class="s6">flex-start</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">margin-bottom:</span><span class="s4"> </span><span class="s9">10px</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.violation-card</span><span class="s4"> </span><span class="s1">.card-date</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">0.8rem</span><span class="s4">;</span></p>
-<p class="p8"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">color:</span><span class="s4"> </span><span class="s1">#8e8e93</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-weight:</span><span class="s4"> </span><span class="s9">600</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.violation-card</span><span class="s4"> </span><span class="s1">.card-count</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s4">,</span><span class="s9">122</span><span class="s4">,</span><span class="s9">255</span><span class="s4">,</span><span class="s9">0.08</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">color:</span><span class="s4"> </span><span class="s1">var(--ios-blue)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">4px</span><span class="s4"> </span><span class="s9">12px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">12px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-weight:</span><span class="s4"> </span><span class="s9">700</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">0.8rem</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.violation-card</span><span class="s4"> </span><span class="s1">.card-rule</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-weight:</span><span class="s4"> </span><span class="s9">700</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">1rem</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">margin-bottom:</span><span class="s4"> </span><span class="s9">6px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">line-height:</span><span class="s4"> </span><span class="s9">1.4</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.violation-card</span><span class="s4"> </span><span class="s1">.card-detail</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">0.85rem</span><span class="s4">;</span></p>
-<p class="p8"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">color:</span><span class="s4"> </span><span class="s1">#8e8e93</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">margin-bottom:</span><span class="s4"> </span><span class="s9">12px</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.violation-card</span><span class="s4"> </span><span class="s1">.card-evidence</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">display:</span><span class="s4"> </span><span class="s6">flex</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">justify-content:</span><span class="s4"> </span><span class="s6">flex-end</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span>@</span><span class="s1">media</span><span class="s4"> (</span><span class="s1">max-width:</span><span class="s4"> 576</span><span class="s1">px</span><span class="s4">) {</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>.data-table-wrapper { </span><span class="s5">display:</span><span class="s1"> </span><span class="s6">none</span><span class="s1">; }</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">.mobile-cards</span><span class="s4"> { </span><span class="s5">display:</span><span class="s4"> </span><span class="s6">block</span><span class="s4">; }</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span>@</span><span class="s1">media</span><span class="s4"> (</span><span class="s1">min-width:</span><span class="s4"> 577</span><span class="s1">px</span><span class="s4">) {</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>.data-table-wrapper { </span><span class="s5">display:</span><span class="s1"> </span><span class="s6">block</span><span class="s1">; }</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">.mobile-cards</span><span class="s4"> { </span><span class="s5">display:</span><span class="s4"> </span><span class="s6">none</span><span class="s4">; }</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.evidence-btn</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s4">,</span><span class="s9">122</span><span class="s4">,</span><span class="s9">255</span><span class="s4">,</span><span class="s9">0.08</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">color:</span><span class="s4"> </span><span class="s1">var(--ios-blue)</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">border:</span><span class="s4"> </span><span class="s1">1px</span><span class="s4"> </span><span class="s6">solid</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">0</span><span class="s4">,</span><span class="s1">122</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.15</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">8px</span><span class="s4"> </span><span class="s9">14px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">12px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-weight:</span><span class="s4"> </span><span class="s9">700</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">0.8rem</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">cursor:</span><span class="s4"> </span><span class="s6">pointer</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">transition:</span><span class="s4"> </span><span class="s6">all</span><span class="s4"> </span><span class="s9">0.2s</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">display:</span><span class="s4"> </span><span class="s1">inline-flex</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">align-items:</span><span class="s4"> </span><span class="s6">center</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">gap:</span><span class="s1"> </span><span class="s9">6px</span><span class="s1">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.evidence-btn:hover</span><span class="s4"> { </span><span class="s5">background:</span><span class="s4"> </span><span class="s6">var(--ios-blue)</span><span class="s4">; </span><span class="s5">color:</span><span class="s4"> </span><span class="s10">#fff</span><span class="s4">; }</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.evidence-btn.disabled</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0.03</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p8"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">color:</span><span class="s4"> </span><span class="s1">#c7c7cc</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-color:</span><span class="s4"> </span><span class="s6">transparent</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">cursor:</span><span class="s4"> </span><span class="s1">not-allowed</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s11">.empty-state</span><span class="s4"> { </span><span class="s1">text-align:</span><span class="s4"> </span><span class="s6">center</span><span class="s4">; </span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">50px</span><span class="s4"> </span><span class="s9">20px</span><span class="s4">; </span><span class="s1">color:</span><span class="s4"> </span><span class="s10">#8e8e93</span><span class="s4">; }</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s11">.empty-state</span><span class="s4"> </span><span class="s11">i</span><span class="s4"> { </span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">3rem</span><span class="s4">; </span><span class="s1">margin-bottom:</span><span class="s4"> </span><span class="s9">16px</span><span class="s4">; </span><span class="s1">opacity:</span><span class="s4"> </span><span class="s9">0.3</span><span class="s4">; }</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.modal-overlay</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">position:</span><span class="s4"> </span><span class="s6">fixed</span><span class="s4">; </span><span class="s1">inset:</span><span class="s4"> </span><span class="s9">0</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0.4</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">backdrop-filter:</span><span class="s4"> </span><span class="s6">blur(</span><span class="s9">10px</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">z-index:</span><span class="s4"> </span><span class="s9">9998</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">display:</span><span class="s4"> </span><span class="s6">none</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">opacity:</span><span class="s4"> </span><span class="s9">0</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">transition:</span><span class="s4"> </span><span class="s6">opacity</span><span class="s4"> </span><span class="s9">0.3s</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.modal-overlay.show</span><span class="s4"> { </span><span class="s5">display:</span><span class="s4"> </span><span class="s6">block</span><span class="s4">; </span><span class="s5">opacity:</span><span class="s4"> </span><span class="s9">1</span><span class="s4">; }</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.modal-liquid</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">position:</span><span class="s4"> </span><span class="s6">fixed</span><span class="s4">; </span><span class="s1">top:</span><span class="s4"> </span><span class="s9">50%</span><span class="s4">; </span><span class="s1">left:</span><span class="s4"> </span><span class="s9">50%</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">transform:</span><span class="s4"> </span><span class="s1">translate(</span><span class="s9">-50%</span><span class="s4">, </span><span class="s9">-50%</span><span class="s1">)</span><span class="s4"> </span><span class="s1">scale(</span><span class="s9">0.9</span><span class="s1">)</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">background:</span><span class="s4"> </span><span class="s6">linear-gradient(</span><span class="s1">135deg</span><span class="s4">, </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.95</span><span class="s6">)</span><span class="s4"> </span><span class="s1">0%</span><span class="s4">, </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.9</span><span class="s6">)</span><span class="s4"> </span><span class="s1">100%</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">backdrop-filter:</span><span class="s4"> </span><span class="s6">blur(</span><span class="s9">40px</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">border:</span><span class="s4"> </span><span class="s1">2px</span><span class="s4"> </span><span class="s6">solid</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.6</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">32px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">28px</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">width:</span><span class="s1"> </span><span class="s9">92%</span><span class="s1">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">max-width:</span><span class="s4"> </span><span class="s9">500px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">max-height:</span><span class="s4"> </span><span class="s9">85vh</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">overflow-y:</span><span class="s4"> </span><span class="s6">auto</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">z-index:</span><span class="s4"> </span><span class="s9">9999</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">display:</span><span class="s4"> </span><span class="s6">none</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">opacity:</span><span class="s4"> </span><span class="s9">0</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">box-shadow:</span><span class="s4"> </span><span class="s1">0</span><span class="s4"> </span><span class="s1">40px</span><span class="s4"> </span><span class="s1">80px</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0</span><span class="s4">,</span><span class="s1">0.2</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">transition:</span><span class="s4"> </span><span class="s6">all</span><span class="s4"> </span><span class="s1">0.4s</span><span class="s4"> </span><span class="s6">cubic-bezier(</span><span class="s1">0.175</span><span class="s4">, </span><span class="s1">0.885</span><span class="s4">, </span><span class="s1">0.32</span><span class="s4">, </span><span class="s1">1.275</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s11">.modal-liquid.show</span><span class="s4"> { </span><span class="s1">display:</span><span class="s4"> </span><span class="s6">block</span><span class="s4">; </span><span class="s1">opacity:</span><span class="s4"> </span><span class="s9">1</span><span class="s4">; </span><span class="s1">transform:</span><span class="s4"> </span><span class="s6">translate(</span><span class="s9">-50%</span><span class="s4">, </span><span class="s9">-50%</span><span class="s6">)</span><span class="s4"> </span><span class="s6">scale(</span><span class="s9">1</span><span class="s6">)</span><span class="s4">; }</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s11">.modal-header-liquid</span><span class="s4"> { </span><span class="s1">display:</span><span class="s4"> </span><span class="s6">flex</span><span class="s4">; </span><span class="s1">justify-content:</span><span class="s4"> </span><span class="s6">space-between</span><span class="s4">; </span><span class="s1">align-items:</span><span class="s4"> </span><span class="s6">center</span><span class="s4">; </span><span class="s1">margin-bottom:</span><span class="s4"> </span><span class="s9">20px</span><span class="s4">; }</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.modal-header-liquid</span><span class="s4"> </span><span class="s1">h5</span><span class="s4"> { </span><span class="s5">font-weight:</span><span class="s4"> </span><span class="s9">800</span><span class="s4">; </span><span class="s5">margin:</span><span class="s4"> </span><span class="s9">0</span><span class="s4">; }</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.modal-close</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0.05</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border:</span><span class="s4"> </span><span class="s6">none</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">width:</span><span class="s4"> </span><span class="s9">36px</span><span class="s4">; </span><span class="s1">height:</span><span class="s4"> </span><span class="s9">36px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">50%</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">display:</span><span class="s4"> </span><span class="s6">flex</span><span class="s4">; </span><span class="s1">align-items:</span><span class="s4"> </span><span class="s6">center</span><span class="s4">; </span><span class="s1">justify-content:</span><span class="s4"> </span><span class="s6">center</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">cursor:</span><span class="s4"> </span><span class="s6">pointer</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">transition:</span><span class="s4"> </span><span class="s6">all</span><span class="s4"> </span><span class="s9">0.2s</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.modal-close:hover</span><span class="s4"> { </span><span class="s5">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0.1</span><span class="s6">)</span><span class="s4">; }</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.modal-img-grid</span><span class="s4"> { </span><span class="s5">display:</span><span class="s4"> </span><span class="s6">grid</span><span class="s4">; </span><span class="s5">gap:</span><span class="s4"> </span><span class="s9">12px</span><span class="s4">; }</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s11">.modal-img-item</span><span class="s4"> { </span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">20px</span><span class="s4">; </span><span class="s1">overflow:</span><span class="s4"> </span><span class="s6">hidden</span><span class="s4">; </span><span class="s1">box-shadow:</span><span class="s4"> </span><span class="s9">0</span><span class="s4"> </span><span class="s9">4px</span><span class="s4"> </span><span class="s9">12px</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0</span><span class="s4">,</span><span class="s9">0.08</span><span class="s6">)</span><span class="s4">; }</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.modal-img-item</span><span class="s4"> </span><span class="s1">img</span><span class="s4"> { </span><span class="s5">width:</span><span class="s4"> </span><span class="s9">100%</span><span class="s4">; </span><span class="s5">display:</span><span class="s4"> </span><span class="s6">block</span><span class="s4">; }</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">#loader</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">position:</span><span class="s4"> </span><span class="s6">fixed</span><span class="s4">; </span><span class="s1">inset:</span><span class="s4"> </span><span class="s9">0</span><span class="s4">;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">255</span><span class="s4">,</span><span class="s1">0.7</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">backdrop-filter:</span><span class="s4"> </span><span class="s6">blur(</span><span class="s9">15px</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">display:</span><span class="s4"> </span><span class="s6">flex</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">justify-content:</span><span class="s4"> </span><span class="s6">center</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">align-items:</span><span class="s4"> </span><span class="s6">center</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">z-index:</span><span class="s4"> </span><span class="s9">9999</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">flex-direction:</span><span class="s4"> </span><span class="s6">column</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.spinner-ring</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">width:</span><span class="s4"> </span><span class="s9">40px</span><span class="s4">; </span><span class="s1">height:</span><span class="s4"> </span><span class="s9">40px</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s5">border:</span><span class="s1"> </span><span class="s9">3px</span><span class="s1"> </span><span class="s6">solid</span><span class="s1"> </span><span class="s6">rgba(</span><span class="s9">0</span><span class="s1">,</span><span class="s9">0</span><span class="s1">,</span><span class="s9">0</span><span class="s1">,</span><span class="s9">0.05</span><span class="s6">)</span><span class="s1">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-top-color:</span><span class="s4"> </span><span class="s6">var(--ios-blue)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">50%</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">animation:</span><span class="s4"> </span><span class="s1">spin</span><span class="s4"> </span><span class="s9">0.8s</span><span class="s4"> </span><span class="s1">linear</span><span class="s4"> </span><span class="s1">infinite</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s7">@keyframes</span><span class="s1"> </span><span class="s6">spin</span><span class="s1"> { </span><span class="s6">to</span><span class="s1"> { </span><span class="s5">transform:</span><span class="s1"> </span><span class="s6">rotate(</span><span class="s9">360deg</span><span class="s6">)</span><span class="s1">; } }</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.back-btn</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">display:</span><span class="s4"> </span><span class="s6">inline-flex</span><span class="s4">; </span><span class="s1">align-items:</span><span class="s4"> </span><span class="s6">center</span><span class="s4">; </span><span class="s1">gap:</span><span class="s4"> </span><span class="s9">8px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">color:</span><span class="s4"> </span><span class="s10">#8e8e93</span><span class="s4">; </span><span class="s1">text-decoration:</span><span class="s4"> </span><span class="s6">none</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-weight:</span><span class="s4"> </span><span class="s9">600</span><span class="s4">; </span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">0.9rem</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">margin-bottom:</span><span class="s4"> </span><span class="s9">20px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">transition:</span><span class="s4"> </span><span class="s6">color</span><span class="s4"> </span><span class="s9">0.2s</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.back-btn:hover</span><span class="s4"> { </span><span class="s5">color:</span><span class="s4"> </span><span class="s10">#1C1C1E</span><span class="s4">; }</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p6"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">.danger-badge</span><span class="s4"> {</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">background:</span><span class="s4"> </span><span class="s6">rgba(</span><span class="s9">255</span><span class="s4">,</span><span class="s9">59</span><span class="s4">,</span><span class="s9">48</span><span class="s4">,</span><span class="s9">0.1</span><span class="s6">)</span><span class="s4">;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s5">color:</span><span class="s4"> </span><span class="s1">var(--ios-red)</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">padding:</span><span class="s4"> </span><span class="s9">4px</span><span class="s4"> </span><span class="s9">10px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">border-radius:</span><span class="s4"> </span><span class="s9">10px</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-weight:</span><span class="s4"> </span><span class="s9">700</span><span class="s4">;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">font-size:</span><span class="s4"> </span><span class="s9">0.75rem</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">style</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">base</span><span class="s4"> </span><span class="s5">target</span><span class="s3">=</span><span class="s1">"_blank"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">body</span><span class="s3">&gt;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">id</span><span class="s3">=</span><span class="s1">"loader"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"spinner-ring"</span><span class="s3">&gt;&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fw-bold text-muted small mt-3"</span><span class="s3">&gt;</span><span class="s13">กำลังโหลดข้อมูล</span><span class="s4">...</span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p11"><span class="s1">&lt;!-- Modal --&gt;</span></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"modal-overlay"</span><span class="s4"> </span><span class="s5">id</span><span class="s3">=</span><span class="s1">"modalOverlay"</span><span class="s4"> </span><span class="s5">onclick</span><span class="s3">=</span><span class="s1">"closeModal()"</span><span class="s3">&gt;&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"modal-liquid"</span><span class="s4"> </span><span class="s5">id</span><span class="s3">=</span><span class="s1">"evidenceModal"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"modal-header-liquid"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">h5</span><span class="s3">&gt;&lt;</span><span class="s7">i</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fa-solid fa-images me-2 text-primary"</span><span class="s3">&gt;&lt;/</span><span class="s7">i</span><span class="s3">&gt;</span><span class="s13">หลักฐานรูปภาพ</span><span class="s3">&lt;/</span><span class="s7">h5</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">button</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"modal-close"</span><span class="s4"> </span><span class="s5">onclick</span><span class="s3">=</span><span class="s1">"closeModal()"</span><span class="s3">&gt;&lt;</span><span class="s7">i</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fa-solid fa-xmark"</span><span class="s3">&gt;&lt;/</span><span class="s7">i</span><span class="s3">&gt;&lt;/</span><span class="s7">button</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"modal-img-grid"</span><span class="s4"> </span><span class="s5">id</span><span class="s3">=</span><span class="s1">"modalImgGrid"</span><span class="s3">&gt;&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">a</span><span class="s4"> </span><span class="s5">href</span><span class="s3">=</span><span class="s1">"#"</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"back-btn"</span><span class="s4"> </span><span class="s5">onclick</span><span class="s3">=</span><span class="s1">"goBack()"</span><span class="s3">&gt;&lt;</span><span class="s7">i</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fa-solid fa-arrow-left"</span><span class="s3">&gt;&lt;/</span><span class="s7">i</span><span class="s3">&gt;</span><span class="s4"> </span><span class="s13">กลับหน้าหลัก</span><span class="s3">&lt;/</span><span class="s7">a</span><span class="s3">&gt;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"liquid-card"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"student-header"</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">h2</span><span class="s1"> </span><span class="s5">id</span><span class="s3">=</span><span class="s6">"studentName"</span><span class="s3">&gt;</span><span class="s8">กำลังโหลด</span><span class="s1">...</span><span class="s3">&lt;/</span><span class="s7">h2</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s1"> </span><span class="s5">class</span><span class="s3">=</span><span class="s6">"badge-id"</span><span class="s1"> </span><span class="s5">id</span><span class="s3">=</span><span class="s6">"studentIdBadge"</span><span class="s3">&gt;</span><span class="s8">เลขที่</span><span class="s1"> </span><span class="s3">&lt;</span><span class="s1">?= studentId ?&gt;</span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">id</span><span class="s3">=</span><span class="s1">"contentArea"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s7">div</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"empty-state"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s3">&lt;</span><span class="s7">i</span><span class="s4"> </span><span class="s5">class</span><span class="s3">=</span><span class="s1">"fa-solid fa-spinner fa-spin"</span><span class="s3">&gt;&lt;/</span><span class="s7">i</span><span class="s3">&gt;</span></p>
-<p class="p12"><span class="s14"><span class="Apple-converted-space">      </span></span><span class="s15">&lt;</span><span class="s16">div</span><span class="s15">&gt;</span><span class="s1">กำลังดึงข้อมูลจากระบบ</span><span class="s14">...</span><span class="s15">&lt;/</span><span class="s16">div</span><span class="s15">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s7">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">div</span><span class="s3">&gt;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">script</span><span class="s3">&gt;</span></p>
-<p class="p13"><span class="s7">const</span><span class="s17"> </span><span class="s1">nameMasterList</span><span class="s17"> = {<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"1"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นายอินทัช</span><span class="s14"> </span><span class="s1">ฐิติโชติตระกูล</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"2"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">พัชลา</span><span class="s14"> </span><span class="s1">บุญเลิศทรัพย์ทวี</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"3"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นายคุณานนท์</span><span class="s14"> </span><span class="s1">สามัคคีก่อสกุล</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"4"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นายชินกฤต</span><span class="s14"> </span><span class="s1">โยธิยา</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"5"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">จิตรา</span><span class="s14"> </span><span class="s1">จือเต๊าะ</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"6"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">นฤมล</span><span class="s14"> </span><span class="s1">เยอะเบียง</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"7"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">ปานตะวัน</span><span class="s14"> </span><span class="s1">เพียงคำ</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"8"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">ฐิตาพร</span><span class="s1"> </span><span class="s8">มาเยอะ</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"9"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">โนรา</span><span class="s1"> </span><span class="s8">โหว่ยคือ</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"10"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">มยุรี</span><span class="s1"> </span><span class="s8">มาเยอะ</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"11"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">ณัชชา</span><span class="s1"> </span><span class="s8">หมื่อแล</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"12"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">อพิญญา</span><span class="s14"> </span><span class="s1">ศรีวิชัย</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"13"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นายอนุรักษ์</span><span class="s14"> </span><span class="s1">แซ่ว่าง</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"14"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">ดวงกมล</span><span class="s1"> </span><span class="s8">มั่นคง</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"15"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">มรกต</span><span class="s1"> </span><span class="s8">ซางสุภาพ</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"16"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">ติยนันท์</span><span class="s1"> </span><span class="s8">ฦาชา</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"17"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">กนกภรณ์</span><span class="s14"> </span><span class="s1">โสภณสุนทรเลิศ</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"18"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">ณนิดา</span><span class="s1"> </span><span class="s8">แซ่เติ๋ง</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"19"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นายวิโรจน์</span><span class="s14"> </span><span class="s1">เยอแจะ</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"20"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">ทองดี</span><span class="s14"> </span><span class="s1">เรือนเเก้ว</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"21"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นายทักษ์ดนัย</span><span class="s14"> </span><span class="s1">โชคชัยรัตนกุล</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"22"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นวพล</span><span class="s14"> </span><span class="s1">สว่างถาวรกุล</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"23"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นายรัชชานนท์</span><span class="s14"> </span><span class="s1">เหวยเหยอกู่</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"24"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นายศุภกิจ</span><span class="s14"> </span><span class="s1">แซ่หู่</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"25"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">กชกร</span><span class="s1"> </span><span class="s8">เหลาเหยา</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"26"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">กัญญาพร</span><span class="s1"> </span><span class="s8">อามอ</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"27"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">ณิชากร</span><span class="s1"> </span><span class="s8">อายี</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"28"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">ธิดารัตน์</span><span class="s14"> </span><span class="s1">ละเชกุ</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"29"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">นาธาร์</span><span class="s1"> </span><span class="s8">แลเชอ</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"30"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">เนาวรัตน์</span><span class="s14"> </span><span class="s1">เชอหมื่อ</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"31"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">เพชรรดา</span><span class="s1"> </span><span class="s8">สีไอ้</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"32"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">ภัคจีรา</span><span class="s14"> </span><span class="s1">แซ่เห่อ</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"33"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">สุปวีณ์</span><span class="s14"> </span><span class="s1">ขันอุละ</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"34"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">ภัทรมล</span><span class="s14"> </span><span class="s1">สหพรสันติสุข</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"35"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">น</span><span class="s14">.</span><span class="s1">ส</span><span class="s14">.</span><span class="s1">ธัญญลักษณ์</span><span class="s14"> </span><span class="s1">ทาเกิด</span><span class="s14">"</span><span class="s18">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"36"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">วราภรณ์</span><span class="s1"> </span><span class="s8">เชอกอง</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"37"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">ณัชนันท์</span><span class="s1"> </span><span class="s8">คำปวน</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"38"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">กนกรดา</span><span class="s1"> </span><span class="s8">มูเซอ</span><span class="s1">"</span><span class="s4">,<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">  </span></span><span class="s1">"39"</span><span class="s4">: </span><span class="s1">"</span><span class="s8">น</span><span class="s1">.</span><span class="s8">ส</span><span class="s1">.</span><span class="s8">นิชดา</span><span class="s1"> </span><span class="s8">อาซอ</span><span class="s1">"</span><span class="s4">,</span></p>
-<p class="p14"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">"40"</span><span class="s18">: </span><span class="s14">"</span><span class="s1">นายสุรเชษฐ์</span><span class="s14"> </span><span class="s1">กัลยา</span><span class="s14">"</span><span class="s18"> <span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s1">};</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p15"><span class="s7">const</span><span class="s17"> </span><span class="s19">studentId</span><span class="s17"> = </span><span class="s20">"&lt;?= studentId ?&gt;"</span><span class="s17">.</span><span class="s19">trim</span><span class="s17">();</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s1">window</span><span class="s17">.</span><span class="s1">onload</span><span class="s17"> = () =&gt; {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">if</span><span class="s17"> (!</span><span class="s1">studentId</span><span class="s17"> || !</span><span class="s1">nameMasterList</span><span class="s17">[</span><span class="s1">studentId</span><span class="s17">]) {</span></p>
-<p class="p15"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s19">document</span><span class="s17">.</span><span class="s19">getElementById</span><span class="s17">(</span><span class="s20">'studentName'</span><span class="s17">).</span><span class="s19">innerText</span><span class="s17"> = </span><span class="s20">"</span><span class="s21">ไม่พบข้อมูลนักเรียน</span><span class="s20">"</span><span class="s17">;</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'studentIdBadge'</span><span class="s17">).</span><span class="s1">style</span><span class="s17">.</span><span class="s1">display</span><span class="s17"> = </span><span class="s6">'none'</span><span class="s17">;</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'contentArea'</span><span class="s17">).</span><span class="s1">innerHTML</span><span class="s17"> = </span><span class="s6">`</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="empty-state"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;i class="fa-solid fa-circle-exclamation"&gt;&lt;/i&gt;</span></p>
-<p class="p14"><span class="s14"><span class="Apple-converted-space">        </span>&lt;div&gt;</span><span class="s1">ไม่พบเลขที่นักเรียนในระบบ</span><span class="s14">&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>`</span><span class="s4">;</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'loader'</span><span class="s17">).</span><span class="s1">style</span><span class="s17">.</span><span class="s1">display</span><span class="s17"> = </span><span class="s6">'none'</span><span class="s17">;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">return</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'studentName'</span><span class="s17">).</span><span class="s1">innerText</span><span class="s17"> = </span><span class="s1">nameMasterList</span><span class="s17">[</span><span class="s1">studentId</span><span class="s17">];</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s1">loadData</span><span class="s17">();</span></p>
-<p class="p5"><span class="s1">};</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p16"><span class="s22">function</span><span class="s17"> </span><span class="s19">loadData</span><span class="s17">() {</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s7">if</span><span class="s1"> (</span><span class="s7">typeof</span><span class="s1"> </span><span class="s19">google</span><span class="s1"> !== </span><span class="s6">'undefined'</span><span class="s1">) {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">google</span><span class="s17">.</span><span class="s1">script</span><span class="s17">.</span><span class="s1">run</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">      </span>.</span><span class="s1">withSuccessHandler</span><span class="s17">((</span><span class="s1">data</span><span class="s17">) =&gt; {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">        </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'loader'</span><span class="s17">).</span><span class="s1">style</span><span class="s17">.</span><span class="s1">display</span><span class="s17"> = </span><span class="s6">'none'</span><span class="s17">;</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">        </span></span><span class="s1">renderTable</span><span class="s17">(</span><span class="s1">data</span><span class="s17">);</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>})</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">      </span>.</span><span class="s1">withFailureHandler</span><span class="s17">((</span><span class="s1">err</span><span class="s17">) =&gt; {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">        </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'loader'</span><span class="s17">).</span><span class="s1">style</span><span class="s17">.</span><span class="s1">display</span><span class="s17"> = </span><span class="s6">'none'</span><span class="s17">;</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">        </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'contentArea'</span><span class="s17">).</span><span class="s1">innerHTML</span><span class="s17"> = </span><span class="s6">`</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="empty-state"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;i class="fa-solid fa-triangle-exclamation"&gt;&lt;/i&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div&gt;</span><span class="s8">เกิดข้อผิดพลาด</span><span class="s1">: </span><span class="s4">${</span><span class="s23">err</span><span class="s4">}</span><span class="s1">&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>`</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">      </span>})</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">      </span>.</span><span class="s1">getRuleViolations</span><span class="s17">(</span><span class="s1">studentId</span><span class="s17">);</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>} </span><span class="s7">else</span><span class="s1"> {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'loader'</span><span class="s17">).</span><span class="s1">style</span><span class="s17">.</span><span class="s1">display</span><span class="s17"> = </span><span class="s6">'none'</span><span class="s17">;</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'contentArea'</span><span class="s17">).</span><span class="s1">innerHTML</span><span class="s17"> = </span><span class="s6">`</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="empty-state"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;i class="fa-solid fa-wifi-slash"&gt;&lt;/i&gt;</span></p>
-<p class="p14"><span class="s14"><span class="Apple-converted-space">        </span>&lt;div&gt;</span><span class="s1">ไม่สามารถเชื่อมต่อกับระบบได้</span><span class="s14">&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>`</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p5"><span class="s1">}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s7">function</span><span class="s17"> </span><span class="s1">renderTable</span><span class="s17">(</span><span class="s1">violations</span><span class="s17">) {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">const</span><span class="s17"> </span><span class="s1">container</span><span class="s17"> = </span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'contentArea'</span><span class="s17">);</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">if</span><span class="s17"> (!</span><span class="s1">violations</span><span class="s17"> || </span><span class="s1">violations</span><span class="s17">.</span><span class="s1">length</span><span class="s17"> === </span><span class="s5">0</span><span class="s17">) {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">container</span><span class="s17">.</span><span class="s1">innerHTML</span><span class="s17"> = </span><span class="s6">`</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="empty-state"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;i class="fa-solid fa-clipboard-check"&gt;&lt;/i&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="fw-bold"&gt;</span><span class="s8">ไม่พบประวัติการทำผิดกฎ</span><span class="s1">&lt;/div&gt;</span></p>
-<p class="p14"><span class="s14"><span class="Apple-converted-space">        </span>&lt;div class="small"&gt;</span><span class="s1">นักเรียนคนนี้ยังไม่มีบันทึกความผิดในระบบ</span><span class="s14">&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>`</span><span class="s4">;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">return</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">let</span><span class="s17"> </span><span class="s1">totalCount</span><span class="s17"> = </span><span class="s5">0</span><span class="s17">;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p17"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">// </span><span class="s1">สร้างข้อมูลสำหรับทั้งตารางและการ์ด</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">let</span><span class="s17"> </span><span class="s1">rowsHtml</span><span class="s17"> = </span><span class="s6">''</span><span class="s17">;</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">let</span><span class="s17"> </span><span class="s1">cardsHtml</span><span class="s17"> = </span><span class="s6">''</span><span class="s17">;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s1">violations</span><span class="s17">.</span><span class="s1">forEach</span><span class="s17">((</span><span class="s1">v</span><span class="s17">, </span><span class="s1">idx</span><span class="s17">) =&gt; {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">totalCount</span><span class="s17"> += </span><span class="s1">parseInt</span><span class="s17">(</span><span class="s1">v</span><span class="s17">.</span><span class="s1">count</span><span class="s17">) || </span><span class="s5">0</span><span class="s17">;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s7">let</span><span class="s1"> </span><span class="s19">imgCount</span><span class="s1"> = </span><span class="s5">0</span><span class="s1">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s7">if</span><span class="s1"> (</span><span class="s19">v</span><span class="s1">.</span><span class="s19">img1</span><span class="s1"> &amp;&amp; </span><span class="s19">v</span><span class="s1">.</span><span class="s19">img1</span><span class="s1"> !== </span><span class="s6">"-"</span><span class="s1">) </span><span class="s19">imgCount</span><span class="s1">++;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s7">if</span><span class="s1"> (</span><span class="s19">v</span><span class="s1">.</span><span class="s19">img2</span><span class="s1"> &amp;&amp; </span><span class="s19">v</span><span class="s1">.</span><span class="s19">img2</span><span class="s1"> !== </span><span class="s6">"-"</span><span class="s1">) </span><span class="s19">imgCount</span><span class="s1">++;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s7">if</span><span class="s1"> (</span><span class="s19">v</span><span class="s1">.</span><span class="s19">img3</span><span class="s1"> &amp;&amp; </span><span class="s19">v</span><span class="s1">.</span><span class="s19">img3</span><span class="s1"> !== </span><span class="s6">"-"</span><span class="s1">) </span><span class="s19">imgCount</span><span class="s1">++;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s7">let</span><span class="s17"> </span><span class="s1">evidenceBtn</span><span class="s17"> = </span><span class="s6">''</span><span class="s17">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s7">if</span><span class="s1"> (</span><span class="s19">imgCount</span><span class="s1"> &gt; </span><span class="s5">0</span><span class="s1">) {</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s23">evidenceBtn</span><span class="s4"> = </span><span class="s1">`&lt;button class="evidence-btn" onclick="openEvidenceModal(</span><span class="s4">${</span><span class="s23">idx</span><span class="s4">}</span><span class="s1">)"&gt;&lt;i class="fa-solid fa-image"&gt;&lt;/i&gt; </span><span class="s8">กดดูหลักฐาน</span><span class="s1"> (</span><span class="s4">${</span><span class="s23">imgCount</span><span class="s4">}</span><span class="s1"> </span><span class="s8">รูป</span><span class="s1">)&lt;/button&gt;`</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>} </span><span class="s7">else</span><span class="s1"> {</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">      </span></span><span class="s23">evidenceBtn</span><span class="s4"> = </span><span class="s1">`&lt;span class="evidence-btn disabled"&gt;&lt;i class="fa-solid fa-ban"&gt;&lt;/i&gt; </span><span class="s8">ไม่มีหลักฐาน</span><span class="s1">&lt;/span&gt;`</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s7">let</span><span class="s17"> </span><span class="s1">imgData</span><span class="s17"> = </span><span class="s24">JSON</span><span class="s17">.</span><span class="s1">stringify</span><span class="s17">([</span><span class="s1">v</span><span class="s17">.</span><span class="s1">img1</span><span class="s17">, </span><span class="s1">v</span><span class="s17">.</span><span class="s1">img2</span><span class="s17">, </span><span class="s1">v</span><span class="s17">.</span><span class="s1">img3</span><span class="s17">].</span><span class="s1">filter</span><span class="s17">(</span><span class="s1">img</span><span class="s17"> =&gt; </span><span class="s1">img</span><span class="s17"> &amp;&amp; </span><span class="s1">img</span><span class="s17"> !== </span><span class="s6">"-"</span><span class="s17">));</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// </span><span class="s8">แถวตาราง</span><span class="s1"> (Desktop)</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">rowsHtml</span><span class="s17"> += </span><span class="s6">`</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;tr data-imgs='</span><span class="s4">${</span><span class="s23">imgData</span><span class="s4">}</span><span class="s1">' data-idx="</span><span class="s4">${</span><span class="s23">idx</span><span class="s4">}</span><span class="s1">"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;div class="fw-bold"&gt;</span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">date</span><span class="s4">}</span><span class="s1">&lt;/div&gt;&lt;/td&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;td&gt;&lt;div class="fw-600"&gt;</span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">rule</span><span class="s4">}</span><span class="s1">&lt;/div&gt;</span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">detail</span><span class="s4"> !== </span><span class="s1">'-'</span><span class="s4"> ? </span><span class="s1">`&lt;div class="small text-muted"&gt;</span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">detail</span><span class="s4">}</span><span class="s1">&lt;/div&gt;`</span><span class="s4"> : </span><span class="s1">''</span><span class="s4">}</span><span class="s1">&lt;/td&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;td class="text-center"&gt;&lt;span class="badge bg-light text-dark rounded-pill px-3"&gt;</span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">count</span><span class="s4">}</span><span class="s1"> </span><span class="s8">ครั้ง</span><span class="s1">&lt;/span&gt;&lt;/td&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;td class="text-center"&gt;</span><span class="s4">${</span><span class="s23">evidenceBtn</span><span class="s4">}</span><span class="s1">&lt;/td&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/tr&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>`</span><span class="s4">;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p10"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">// </span><span class="s8">การ์ด</span><span class="s1"> (Mobile)</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">cardsHtml</span><span class="s17"> += </span><span class="s6">`</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="violation-card" data-imgs='</span><span class="s4">${</span><span class="s23">imgData</span><span class="s4">}</span><span class="s1">' data-idx="</span><span class="s4">${</span><span class="s23">idx</span><span class="s4">}</span><span class="s1">"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="card-header-row"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-date"&gt;&lt;i class="fa-regular fa-calendar me-1"&gt;&lt;/i&gt;</span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">date</span><span class="s4">}</span><span class="s1">&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-count"&gt;</span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">count</span><span class="s4">}</span><span class="s1"> </span><span class="s8">ครั้ง</span><span class="s1">&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="card-rule"&gt;</span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">rule</span><span class="s4">}</span><span class="s1">&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">detail</span><span class="s4"> !== </span><span class="s1">'-'</span><span class="s4"> ? </span><span class="s1">`&lt;div class="card-detail"&gt;&lt;i class="fa-solid fa-circle-info me-1"&gt;&lt;/i&gt;</span><span class="s4">${</span><span class="s23">v</span><span class="s4">.</span><span class="s23">detail</span><span class="s4">}</span><span class="s1">&lt;/div&gt;`</span><span class="s4"> : </span><span class="s1">''</span><span class="s4">}</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="card-evidence"&gt;</span><span class="s4">${</span><span class="s23">evidenceBtn</span><span class="s4">}</span><span class="s1">&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>`</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>});</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s1">container</span><span class="s17">.</span><span class="s1">innerHTML</span><span class="s17"> = </span><span class="s6">`</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="d-flex justify-content-between align-items-center mb-3 px-2"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="small fw-bold text-muted"&gt;</span><span class="s8">พบ</span><span class="s1"> </span><span class="s4">${</span><span class="s23">violations</span><span class="s4">.</span><span class="s23">length</span><span class="s4">}</span><span class="s1"> </span><span class="s8">รายการ</span><span class="s1">&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">${</span><span class="s23">totalCount</span><span class="s4"> &gt;= </span><span class="s5">5</span><span class="s4"> ? </span><span class="s1">'&lt;div class="danger-badge"&gt;&lt;i class="fa-solid fa-triangle-exclamation me-1"&gt;&lt;/i&gt;</span><span class="s8">สะสมเกิน</span><span class="s1"> 5 </span><span class="s8">ครั้ง</span><span class="s1">&lt;/div&gt;'</span><span class="s4"> : </span><span class="s1">''</span><span class="s4">}</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;!-- Desktop: </span><span class="s8">ตาราง</span><span class="s1"> --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="data-table-wrapper"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;table class="data-table"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;thead&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>&lt;tr&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;th style="width:18%"&gt;</span><span class="s8">วันที่</span><span class="s1">&lt;/th&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;th style="width:42%"&gt;</span><span class="s8">รายการความผิด</span><span class="s1">&lt;/th&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;th style="width:15%" class="text-center"&gt;</span><span class="s8">จำนวน</span><span class="s1">&lt;/th&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;th style="width:25%" class="text-center"&gt;</span><span class="s8">หลักฐาน</span><span class="s1">&lt;/th&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/tr&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/thead&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;tbody&gt;</span></p>
-<p class="p15"><span class="s20"><span class="Apple-converted-space">          </span></span><span class="s17">${</span><span class="s19">rowsHtml</span><span class="s17">}</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/tbody&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/table&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;!-- Mobile: </span><span class="s8">การ์ด</span><span class="s1"> --&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="mobile-cards"&gt;</span></p>
-<p class="p13"><span class="s6"><span class="Apple-converted-space">      </span></span><span class="s17">${</span><span class="s1">cardsHtml</span><span class="s17">}</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">  </span>`</span><span class="s4">;</span></p>
-<p class="p5"><span class="s1">}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s7">function</span><span class="s17"> </span><span class="s1">openEvidenceModal</span><span class="s17">(</span><span class="s1">idx</span><span class="s17">) {</span></p>
-<p class="p17"><span class="s18"><span class="Apple-converted-space">  </span></span><span class="s14">// </span><span class="s1">หาข้อมูลได้ทั้งจากตาราง</span><span class="s14"> (tr) </span><span class="s1">และการ์ด</span><span class="s14"> (div)</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">let</span><span class="s17"> </span><span class="s1">el</span><span class="s17"> = </span><span class="s1">document</span><span class="s17">.</span><span class="s1">querySelector</span><span class="s17">(</span><span class="s6">`tr[data-idx="</span><span class="s17">${</span><span class="s1">idx</span><span class="s17">}</span><span class="s6">"]`</span><span class="s17">);</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">if</span><span class="s17"> (!</span><span class="s1">el</span><span class="s17">) </span><span class="s1">el</span><span class="s17"> = </span><span class="s1">document</span><span class="s17">.</span><span class="s1">querySelector</span><span class="s17">(</span><span class="s6">`div[data-idx="</span><span class="s17">${</span><span class="s1">idx</span><span class="s17">}</span><span class="s6">"]`</span><span class="s17">);</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s7">if</span><span class="s1"> (!</span><span class="s19">el</span><span class="s1">) </span><span class="s7">return</span><span class="s1">;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">const</span><span class="s17"> </span><span class="s1">imgs</span><span class="s17"> = </span><span class="s24">JSON</span><span class="s17">.</span><span class="s1">parse</span><span class="s17">(</span><span class="s1">el</span><span class="s17">.</span><span class="s1">getAttribute</span><span class="s17">(</span><span class="s6">'data-imgs'</span><span class="s17">) || </span><span class="s6">'[]'</span><span class="s17">);</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s7">const</span><span class="s17"> </span><span class="s1">grid</span><span class="s17"> = </span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'modalImgGrid'</span><span class="s17">);</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s7">if</span><span class="s1"> (</span><span class="s19">imgs</span><span class="s1">.</span><span class="s19">length</span><span class="s1"> === </span><span class="s5">0</span><span class="s1">) </span><span class="s7">return</span><span class="s1">;</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s1">grid</span><span class="s17">.</span><span class="s1">innerHTML</span><span class="s17"> = </span><span class="s1">imgs</span><span class="s17">.</span><span class="s1">map</span><span class="s17">(</span><span class="s1">src</span><span class="s17"> =&gt; </span><span class="s6">`</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="modal-img-item"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">      </span>&lt;img src="</span><span class="s4">${</span><span class="s23">src</span><span class="s4">}</span><span class="s1">" alt="</span><span class="s8">หลักฐาน</span><span class="s1">" onclick="window.open('</span><span class="s4">${</span><span class="s23">src</span><span class="s4">}</span><span class="s1">', '_blank')"&gt;</span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p5"><span class="s6"><span class="Apple-converted-space">  </span>`</span><span class="s1">).</span><span class="s19">join</span><span class="s1">(</span><span class="s6">''</span><span class="s1">);</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'modalOverlay'</span><span class="s17">).</span><span class="s1">classList</span><span class="s17">.</span><span class="s1">add</span><span class="s17">(</span><span class="s6">'show'</span><span class="s17">);</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s19">setTimeout</span><span class="s1">(() =&gt; {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'evidenceModal'</span><span class="s17">).</span><span class="s1">classList</span><span class="s17">.</span><span class="s1">add</span><span class="s17">(</span><span class="s6">'show'</span><span class="s17">);</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}, </span><span class="s5">10</span><span class="s1">);</span></p>
-<p class="p5"><span class="s1">}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p13"><span class="s7">function</span><span class="s17"> </span><span class="s1">closeModal</span><span class="s17">() {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">  </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'evidenceModal'</span><span class="s17">).</span><span class="s1">classList</span><span class="s17">.</span><span class="s1">remove</span><span class="s17">(</span><span class="s6">'show'</span><span class="s17">);</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s19">setTimeout</span><span class="s1">(() =&gt; {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">document</span><span class="s17">.</span><span class="s1">getElementById</span><span class="s17">(</span><span class="s6">'modalOverlay'</span><span class="s17">).</span><span class="s1">classList</span><span class="s17">.</span><span class="s1">remove</span><span class="s17">(</span><span class="s6">'show'</span><span class="s17">);</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}, </span><span class="s5">300</span><span class="s1">);</span></p>
-<p class="p5"><span class="s1">}</span></p>
-<p class="p9"><span class="s12"></span><br></p>
-<p class="p16"><span class="s22">function</span><span class="s17"> </span><span class="s19">goBack</span><span class="s17">() {</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s7">if</span><span class="s1"> (</span><span class="s7">typeof</span><span class="s1"> </span><span class="s19">google</span><span class="s1"> !== </span><span class="s6">'undefined'</span><span class="s1">) {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">google</span><span class="s17">.</span><span class="s1">script</span><span class="s17">.</span><span class="s1">run</span><span class="s17">.</span><span class="s1">withSuccessHandler</span><span class="s17">(</span><span class="s1">url</span><span class="s17"> =&gt; {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">      </span></span><span class="s1">window</span><span class="s17">.</span><span class="s1">location</span><span class="s17">.</span><span class="s1">href</span><span class="s17"> = </span><span class="s1">url</span><span class="s17">;</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span>}).</span><span class="s1">getScriptUrl</span><span class="s17">();</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>} </span><span class="s7">else</span><span class="s1"> {</span></p>
-<p class="p13"><span class="s17"><span class="Apple-converted-space">    </span></span><span class="s1">window</span><span class="s17">.</span><span class="s1">close</span><span class="s17">();</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p5"><span class="s1">}</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">script</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">body</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">html</span><span class="s3">&gt;</span></p>
+
+<div id="loader">
+  <div class="spinner-ring"></div>
+  <div class="fw-bold text-muted small mt-3">กำลังโหลดข้อมูล...</div>
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal()"></div>
+<div class="modal-liquid" id="evidenceModal">
+  <div class="modal-header-liquid">
+    <h5><i class="fa-solid fa-images me-2 text-primary"></i>หลักฐานรูปภาพ</h5>
+    <button class="modal-close" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="modal-img-grid" id="modalImgGrid"></div>
+</div>
+
+<a href="#" class="back-btn" onclick="goBack()"><i class="fa-solid fa-arrow-left"></i> กลับหน้าหลัก</a>
+
+<div class="liquid-card">
+  <div class="student-header">
+    <h2 id="studentName">กำลังโหลด...</h2>
+    <div class="badge-id" id="studentIdBadge">เลขที่ <?= studentId ?></div>
+  </div>
+
+  <div id="contentArea">
+    <div class="empty-state">
+      <i class="fa-solid fa-spinner fa-spin"></i>
+      <div>กำลังดึงข้อมูลจากระบบ...</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const nameMasterList = { 
+  "1": "นายอินทัช ฐิติโชติตระกูล", 
+  "2": "น.ส.พัชลา บุญเลิศทรัพย์ทวี", 
+  "3": "นายคุณานนท์ สามัคคีก่อสกุล", 
+  "4": "นายชินกฤต โยธิยา", 
+  "5": "น.ส.จิตรา จือเต๊าะ", 
+  "6": "น.ส.นฤมล เยอะเบียง", 
+  "7": "น.ส.ปานตะวัน เพียงคำ", 
+  "8": "น.ส.ฐิตาพร มาเยอะ", 
+  "9": "น.ส.โนรา โหว่ยคือ", 
+  "10": "น.ส.มยุรี มาเยอะ", 
+  "11": "น.ส.ณัชชา หมื่อแล", 
+  "12": "น.ส.อพิญญา ศรีวิชัย", 
+  "13": "นายอนุรักษ์ แซ่ว่าง", 
+  "14": "น.ส.ดวงกมล มั่นคง", 
+  "15": "น.ส.มรกต ซางสุภาพ", 
+  "16": "น.ส.ติยนันท์ ฦาชา", 
+  "17": "น.ส.กนกภรณ์ โสภณสุนทรเลิศ", 
+  "18": "น.ส.ณนิดา แซ่เติ๋ง", 
+  "19": "นายวิโรจน์ เยอแจะ", 
+  "20": "น.ส.ทองดี เรือนเเก้ว", 
+  "21": "นายทักษ์ดนัย โชคชัยรัตนกุล", 
+  "22": "นวพล สว่างถาวรกุล", 
+  "23": "นายรัชชานนท์ เหวยเหยอกู่", 
+  "24": "นายศุภกิจ แซ่หู่", 
+  "25": "น.ส.กชกร เหลาเหยา", 
+  "26": "น.ส.กัญญาพร อามอ", 
+  "27": "น.ส.ณิชากร อายี", 
+  "28": "น.ส.ธิดารัตน์ ละเชกุ", 
+  "29": "น.ส.นาธาร์ แลเชอ", 
+  "30": "น.ส.เนาวรัตน์ เชอหมื่อ", 
+  "31": "น.ส.เพชรรดา สีไอ้", 
+  "32": "น.ส.ภัคจีรา แซ่เห่อ", 
+  "33": "น.ส.สุปวีณ์ ขันอุละ", 
+  "34": "น.ส.ภัทรมล สหพรสันติสุข", 
+  "35": "น.ส.ธัญญลักษณ์ ทาเกิด", 
+  "36": "น.ส.วราภรณ์ เชอกอง", 
+  "37": "น.ส.ณัชนันท์ คำปวน", 
+  "38": "น.ส.กนกรดา มูเซอ", 
+  "39": "น.ส.นิชดา อาซอ",
+  "40": "นายสุรเชษฐ์ กัลยา"  
+};
+
+const studentId = "<?= studentId ?>".trim();
+
+window.onload = () => {
+  if (!studentId || !nameMasterList[studentId]) {
+    document.getElementById('studentName').innerText = "ไม่พบข้อมูลนักเรียน";
+    document.getElementById('studentIdBadge').style.display = 'none';
+    document.getElementById('contentArea').innerHTML = `
+      <div class="empty-state">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <div>ไม่พบเลขที่นักเรียนในระบบ</div>
+      </div>
+    `;
+    document.getElementById('loader').style.display = 'none';
+    return;
+  }
+
+  document.getElementById('studentName').innerText = nameMasterList[studentId];
+  loadData();
+};
+
+function loadData() {
+  if (typeof google !== 'undefined') {
+    google.script.run
+      .withSuccessHandler((data) => {
+        document.getElementById('loader').style.display = 'none';
+        renderTable(data);
+      })
+      .withFailureHandler((err) => {
+        document.getElementById('loader').style.display = 'none';
+        document.getElementById('contentArea').innerHTML = `
+          <div class="empty-state">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <div>เกิดข้อผิดพลาด: ${err}</div>
+          </div>
+        `;
+      })
+      .getRuleViolations(studentId);
+  } else {
+    document.getElementById('loader').style.display = 'none';
+    document.getElementById('contentArea').innerHTML = `
+      <div class="empty-state">
+        <i class="fa-solid fa-wifi-slash"></i>
+        <div>ไม่สามารถเชื่อมต่อกับระบบได้</div>
+      </div>
+    `;
+  }
+}
+
+function renderTable(violations) {
+  const container = document.getElementById('contentArea');
+
+  if (!violations || violations.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <i class="fa-solid fa-clipboard-check"></i>
+        <div class="fw-bold">ไม่พบประวัติการทำผิดกฎ</div>
+        <div class="small">นักเรียนคนนี้ยังไม่มีบันทึกความผิดในระบบ</div>
+      </div>
+    `;
+    return;
+  }
+
+  let totalCount = 0;
+
+  // สร้างข้อมูลสำหรับทั้งตารางและการ์ด
+  let rowsHtml = '';
+  let cardsHtml = '';
+
+  violations.forEach((v, idx) => {
+    totalCount += parseInt(v.count) || 0;
+
+    let imgCount = 0;
+    if (v.img1 && v.img1 !== "-") imgCount++;
+    if (v.img2 && v.img2 !== "-") imgCount++;
+    if (v.img3 && v.img3 !== "-") imgCount++;
+
+    let evidenceBtn = '';
+    if (imgCount > 0) {
+      evidenceBtn = `<button class="evidence-btn" onclick="openEvidenceModal(${idx})"><i class="fa-solid fa-image"></i> กดดูหลักฐาน (${imgCount} รูป)</button>`;
+    } else {
+      evidenceBtn = `<span class="evidence-btn disabled"><i class="fa-solid fa-ban"></i> ไม่มีหลักฐาน</span>`;
+    }
+
+    let imgData = JSON.stringify([v.img1, v.img2, v.img3].filter(img => img && img !== "-"));
+
+    // แถวตาราง (Desktop)
+    rowsHtml += `
+      <tr data-imgs='${imgData}' data-idx="${idx}">
+        <td><div class="fw-bold">${v.date}</div></td>
+        <td><div class="fw-600">${v.rule}</div>${v.detail !== '-' ? `<div class="small text-muted">${v.detail}</div>` : ''}</td>
+        <td class="text-center"><span class="badge bg-light text-dark rounded-pill px-3">${v.count} ครั้ง</span></td>
+        <td class="text-center">${evidenceBtn}</td>
+      </tr>
+    `;
+
+    // การ์ด (Mobile)
+    cardsHtml += `
+      <div class="violation-card" data-imgs='${imgData}' data-idx="${idx}">
+        <div class="card-header-row">
+          <div class="card-date"><i class="fa-regular fa-calendar me-1"></i>${v.date}</div>
+          <div class="card-count">${v.count} ครั้ง</div>
+        </div>
+        <div class="card-rule">${v.rule}</div>
+        ${v.detail !== '-' ? `<div class="card-detail"><i class="fa-solid fa-circle-info me-1"></i>${v.detail}</div>` : ''}
+        <div class="card-evidence">${evidenceBtn}</div>
+      </div>
+    `;
+  });
+
+  container.innerHTML = `
+    <div class="d-flex justify-content-between align-items-center mb-3 px-2">
+      <div class="small fw-bold text-muted">พบ ${violations.length} รายการ</div>
+      ${totalCount >= 5 ? '<div class="danger-badge"><i class="fa-solid fa-triangle-exclamation me-1"></i>สะสมเกิน 5 ครั้ง</div>' : ''}
+    </div>
+
+    <!-- Desktop: ตาราง -->
+    <div class="data-table-wrapper">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th style="width:18%">วันที่</th>
+            <th style="width:42%">รายการความผิด</th>
+            <th style="width:15%" class="text-center">จำนวน</th>
+            <th style="width:25%" class="text-center">หลักฐาน</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rowsHtml}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Mobile: การ์ด -->
+    <div class="mobile-cards">
+      ${cardsHtml}
+    </div>
+  `;
+}
+
+function openEvidenceModal(idx) {
+  // หาข้อมูลได้ทั้งจากตาราง (tr) และการ์ด (div)
+  let el = document.querySelector(`tr[data-idx="${idx}"]`);
+  if (!el) el = document.querySelector(`div[data-idx="${idx}"]`);
+  if (!el) return;
+
+  const imgs = JSON.parse(el.getAttribute('data-imgs') || '[]');
+  const grid = document.getElementById('modalImgGrid');
+
+  if (imgs.length === 0) return;
+
+  grid.innerHTML = imgs.map(src => `
+    <div class="modal-img-item">
+      <img src="${src}" alt="หลักฐาน" onclick="window.open('${src}', '_blank')">
+    </div>
+  `).join('');
+
+  document.getElementById('modalOverlay').classList.add('show');
+  setTimeout(() => {
+    document.getElementById('evidenceModal').classList.add('show');
+  }, 10);
+}
+
+function closeModal() {
+  document.getElementById('evidenceModal').classList.remove('show');
+  setTimeout(() => {
+    document.getElementById('modalOverlay').classList.remove('show');
+  }, 300);
+}
+
+function goBack() {
+  if (typeof google !== 'undefined') {
+    google.script.run.withSuccessHandler(url => {
+      window.location.href = url;
+    }).getScriptUrl();
+  } else {
+    window.close();
+  }
+}
+</script>
 </body>
 </html>
